@@ -9,7 +9,7 @@ body{
 h1{
     color:aliceblue;
     font-style: italic;
-    font-weight: bold;;
+    font-weight: bold;
 }
 
 input{
@@ -23,3 +23,9 @@ input{
     border-color: aliceblue;
 }
 
+footer{
+    background-color: thistle;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+}

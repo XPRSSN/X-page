@@ -4,41 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="style.css">  
+
     <script src="https://assets.zorincdn.com/start.zorin.com/scripts/jquery-1.4.2.min.js"></script>
 	<script src="https://assets.zorincdn.com/start.zorin.com/scripts/tools.js"></script>
 	<script src="https://assets.zorincdn.com/start.zorin.com/scripts/scripts.js"></script>
 	<script src="https://assets.zorincdn.com/start.zorin.com/engines/base.js"></script>
+
     <title>Home</title>
 </head>
 <body>
+
     <center><img src="Images/DowningMySearch.png"></center>
     <p></p>
     <p> </p>
     <center><h1>X-PAGE</h1></center>
-	
-    <!--                        TESTED
-    <center><div id="gform">
-        <label class="screen-reader-text" for="s"></label>
-        <input type="text" value="" name="q" id="s">
-        <input type="submit" class="btn fa-input" value="Search" style="font-family: FontAwesome;">	
-      </div></center>
-    -->
 
-    <center><div id="container">
+    <center>
+    <div id="container">
 		<form id="form" onsubmit="return doSearch()">
 			<div id="input"><input id="i" type="text" autocomplete="off" spellcheck="false" placeholder="Search" /></div>
 			<a onclick="nextLanguage()" id="lang"></a>
 			<ul id="sugs"></ul>
 		</form>
 
-	</div></center>
+		<p id="method" style="visibility: hidden;"></p>
+	</div>
 
-    <!-- 
-        The backend search function is currently based on Zorin OS's start.zorinos.com function
-        but everything on the frontend is made by me.
-        Just wanted to clarify that.
-     -->
+	<footer>
+		<div class="legal">
+			<div class="info">
+				<div class="copyright"><span>©2022 XPRSSN</span> All Rights Reserved.<br>Don't be a dick and steal this :)</div>
+			</div>
+		</div>
+	</footer>
+    </center>
+    
+</body>
 
 </body>
 </html>
