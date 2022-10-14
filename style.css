@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: thistle;
+}
+
+h1{
+    color:aliceblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input{
+    background-color: thistle;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: aliceblue;
+}
